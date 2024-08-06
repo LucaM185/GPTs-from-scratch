@@ -7,4 +7,4 @@ The following is a performance table for the architectures with training loss va
 
 | Model Type | Number of Parameters | Time |
 | --- | --- | --- |
-| Linear Regression | 2 | 0.01s |
+| Linear Regression | 2 | ? |
