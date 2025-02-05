@@ -7,3 +7,4 @@ custom
 custom.ipynb
 mamba_model.pth
 .gitignore
+visualizations
