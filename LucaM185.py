@@ -2,7 +2,7 @@ import matplotlib.pyplot as plt
 import matplotlib.font_manager as fm
 
 default_xkcd = 0.5
-if "humor sans" in ([f.name.lower() for f in fm.fontManager.ttflist]) or True:    
+if "humor sans" in ([f.name.lower() for f in fm.fontManager.ttflist]):    
     plt.xkcd(default_xkcd)
     plt.rcParams['font.family'] = 'humor sans'
 plt.rcParams['image.cmap'] = 'gray'
