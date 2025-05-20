@@ -8,3 +8,6 @@ custom.ipynb
 mamba_model.pth
 .gitignore
 visualizations
+testing 
+datasets/enwik8
+datasets/enwik9
