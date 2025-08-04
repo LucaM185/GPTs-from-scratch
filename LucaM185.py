@@ -131,7 +131,7 @@ class BaseBlock(nn.Module):
         if 'hidden_size' not in fc_kwargs:
             fc_kwargs['hidden_size'] = emb_size * 4
         if 'n_layers' not in fc_kwargs:
-            fc_kwargs['n_layers'] = 1
+            fc_kwargs['n_layers'] = 2
             
         self.fc = fc_class(emb_size, **fc_kwargs)
 
